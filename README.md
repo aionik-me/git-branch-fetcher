@@ -36,9 +36,9 @@ A simple bash script to fetch and download all branches from a Git repository in
 ## Usage
 
 ### Fetch All Branches
-    ```bash
+   ```bash
     ./fetch_all_branches.sh <repository_url> <github_token>
-    ```
+   ```
 
 The script will:
 1. Create a parent directory named `repo-all-branches`
@@ -47,7 +47,7 @@ The script will:
 
 ### Directory Structure
 After running the script, you'll have a directory structure like this:
-    ```
+   ```
     repo-all-branches/
     ├── branch1/
     │   ├── .git/
@@ -55,7 +55,7 @@ After running the script, you'll have a directory structure like this:
     ├── branch2/
     │   ├── .git/
     │   └── ... (all files from branch2)
-    ```
+   ```
 
 ## Troubleshooting
 
